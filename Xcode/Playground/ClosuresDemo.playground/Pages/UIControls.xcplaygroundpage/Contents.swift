@@ -78,7 +78,7 @@ textfield
         log("Editing began")
     }.onEditingEnded {
         log("Editing ended")
-    }.onReturn {
+    }.whenReturnPressed {
         log("Return key tapped")
 }
 /*:
